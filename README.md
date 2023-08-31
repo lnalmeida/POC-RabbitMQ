@@ -10,7 +10,7 @@ Este é um projeto de exemplo que demonstra como criar um consumidor de mensagen
 
 ## Requisitos
 
-- .NET Core SDK 3.1 ou superior
+- .NET Core 6 ou superior
 
 ## Como Executar
 
