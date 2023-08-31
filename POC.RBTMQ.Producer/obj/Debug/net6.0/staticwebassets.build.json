@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ux33YBfHmgEPJmWCkOKv+owfkp8dXQvhZVNXPgnIyDI=",
+  "Source": "POC.RBTMQ.Producer",
+  "BasePath": "_content/POC.RBTMQ.Producer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

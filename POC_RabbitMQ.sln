@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.RBTMQ.Producer", "POC.RBTMQ.Producer\POC.RBTMQ.Producer.csproj", "{CC74E2D7-27D5-421A-9447-94B6F25577BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.RabbitMQ.ConsoleConsumer", "POC.RabbitMQ.ConsoleConsumer\POC.RabbitMQ.ConsoleConsumer.csproj", "{1E5A2096-1FB9-4E7B-AAF8-F81CDD301C6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC74E2D7-27D5-421A-9447-94B6F25577BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC74E2D7-27D5-421A-9447-94B6F25577BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC74E2D7-27D5-421A-9447-94B6F25577BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC74E2D7-27D5-421A-9447-94B6F25577BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5A2096-1FB9-4E7B-AAF8-F81CDD301C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5A2096-1FB9-4E7B-AAF8-F81CDD301C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5A2096-1FB9-4E7B-AAF8-F81CDD301C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5A2096-1FB9-4E7B-AAF8-F81CDD301C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
