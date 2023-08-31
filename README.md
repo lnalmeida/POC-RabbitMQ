@@ -1,7 +1,7 @@
 # POC-RabbitMQ
 # Projeto de Consumo de Mensagens RabbitMQ
 
-Este é um projeto de exemplo que demonstra como criar um consumidor de mensagens RabbitMQ em C# usando o ASP.NET Core. O consumidor recebe mensagens de um produtor RabbitMQ, processa essas mensagens e atualiza o estoque de produtos com base nas informações recebidas.
+Este é um projeto de exemplo que demonstra como criar um consumidor de mensagens RabbitMQ em C# usando o ASP.NET Core. O consumidor recebe mensagens de um produtor RabbitMQ, processa essas mensagens e atualiza o estoque de produtos com base nas informações recebidas. Como foi feito somente para fins didáticos e testar como seria o consumo de muma mensagem, não me atentei a padrões de código ou testes. 
 
 ## Funcionalidades
 
@@ -11,6 +11,10 @@ Este é um projeto de exemplo que demonstra como criar um consumidor de mensagen
 ## Requisitos
 
 - .NET Core 6 ou superior
+- Docker version 20.10.25, build 20.10.25-0ubuntu1~20.04.1
+- Imagem RabbitMQ 3.12.2
+- RabbitMQ Client
+- Newtonsoft JSON
 
 ## Como Executar
 
@@ -27,7 +31,7 @@ O consumidor será iniciado e começará a receber mensagens do RabbitMQ. As atu
 Altere as configurações do RabbitMQ no arquivo Program.cs para se adequar ao seu ambiente.
 ```
 csharp
-Copy code
+
 var factory = new ConnectionFactory()
 {
     HostName = "localhost",
@@ -37,7 +41,6 @@ var factory = new ConnectionFactory()
     VirtualHost = "/"
 };
 ```
-
 ## Contato
 
-Se você tiver alguma dúvida ou feedback, sinta-se à vontade para entrar em contato conosco em l.n.almeida.ti@gmail.com.
+Se você tiver alguma dúvida ou feedback, sinta-se à vontade para entrar em contato comigo em l.n.almeida.ti@gmail.com.
